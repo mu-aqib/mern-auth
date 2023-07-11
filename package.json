@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "serve": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
