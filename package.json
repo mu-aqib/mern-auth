@@ -2,15 +2,17 @@
   "name": "package",
   "version": "1.0.0",
   "description": "MERN Authentication with jwt and cookie parser",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "serve": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mu-aqib/mern-auth.git"
   },
-  "author": "",
+  "author": "Muhammad Aqib",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mu-aqib/mern-auth/issues"
@@ -24,5 +26,8 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
